@@ -1,0 +1,98 @@
+body{
+background-image: url('../images/pattern-background-desktop.svg');
+margin:10;
+text-align:center;
+ font-family:'Red Hat Display' ;
+ font-size: 1em;
+}
+.Order-summary{
+  margin: 5% auto auto auto;
+  width: 33.33%;
+  border-style: hidden;
+  border-radius: 15px;
+  background-color: 	#ffffff;
+
+}
+.summary-details{
+
+}
+.music-icon{
+  float: left;
+  margin-left: 10px;
+}
+.hero-icon{
+  height: auto;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+
+}
+.Plan{
+  padding: 15px 15px 20px;
+  margin: 0px 30px 5px ;
+  border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.Plan p{
+  width: 30%;
+  margin:auto;
+  display: inline-block;
+
+}
+
+.description{
+  margin: 0;
+ padding :0px 30px 15px;
+  display: inline-block;
+  color: #7280a7;
+
+}
+
+.change{
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  color: hsl(245, 75%, 52%);
+  text-decoration:underline;
+  padding: 3.5% 0%;
+}
+
+.btn{
+  margin:5px;
+  background: hsl(245, 75%, 52%);
+  background-image: -webkit-linear-gradient(top, hsl(245, 75%, 52%), hsl(245, 75%, 52%));
+  background-image: -moz-linear-gradient(top, hsl(245, 75%, 52%), hsl(245, 75%, 52%));
+  background-image: -ms-linear-gradient(top, hsl(245, 75%, 52%), hsl(245, 75%, 52%));
+  background-image: -o-linear-gradient(top, hsl(245, 75%, 52%), hsl(245, 75%, 52%));
+  background-image: linear-gradient(to bottom, hsl(245, 75%, 52%), hsl(245, 75%, 52%));
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  -webkit-box-shadow:none;
+  border-color: none;
+  -moz-box-shadow: 0px 3px 6px #f5f7ff;
+  box-shadow: 0px 1px 1px #f5f7ff;
+  font-family: Arial;
+  color: #f5f7ff;
+  font-size: 1em;
+  Weights:1000;
+  padding: 10px 30px 10px 30px;
+  width: 70%;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 50%;
+}
+
+.cancel-btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 15px 20px;
+    color: #7280a7;
+}
